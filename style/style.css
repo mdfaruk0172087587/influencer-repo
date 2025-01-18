@@ -1,0 +1,143 @@
+*{
+        font-family: "Poppins", serif;
+        font-style: normal;
+}
+.inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .manrope {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .robot {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+  .crad{
+    max-width: 1047px;
+    margin: 0 auto;
+  }
+  /* section style */
+  .section-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #3A3A3A;
+  }
+  .containar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+.contain >img{
+  width: 100%;
+}
+  .containt{
+    width: 300px;
+    height: 440px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 14px 17px;
+  }
+  .crad-title{
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+  .crad-number{
+    font-weight: 400;
+    font-size: 1.24rem;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+  .crad-ster{
+    font-weight: bold;
+    font-size: 0.87rem;
+    color: #5E6366;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .crad-description, .crad-sub-title{
+    font-weight: bold;
+    font-size: 0.87rem;
+    color: #787885;
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+  .See{
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgba(224, 44, 109, 0.87);
+    text-align: end;
+    margin-top: 40px;
+  }
+  /* .text style */
+  .text{
+    max-width: 1110px;
+    margin: 100px auto;
+    display: flex;
+    gap: 96px;
+  }
+.text-title{
+  font-weight: bold;
+  font-size: 2.37rem;
+  color: #0A0826;
+}
+.text-discription{
+  font-weight: bold;
+  font-size: 1rem;
+  color: #6C6C6C;
+  width: 501px;
+}
+.text-btn{
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  padding: 10px 24px;
+  background-color: #E02C6D;
+  border: none;
+}
+/* footer style */
+footer{
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-containt{
+  max-width: 260px;
+  margin: 50px auto;
+  text-align: center;
+}
+.footer-title{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 8px;
+}
+.footer-pera{
+  font-weight: bold;
+  font-size: 0.87rem;
+  color: #D9DBE1;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.footer-icon{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.icon{
+  color: white;
+}
+  
