@@ -87,7 +87,7 @@
     border: none;
   }
 /* commpani style */
-/* .commpani{
+.commpani{
   max-width: 1110px;
   margin: 100px auto;
   justify-content: space-evenly;
@@ -95,8 +95,9 @@
   border: 1px solid rgba(192, 204, 218, 0.1);
   box-shadow: 0 0 10px rgba(192, 204, 218, 0.1);
   align-items: center;
-  display: flex;
-} */
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
 
   .crad{
     max-width: 1047px;
@@ -251,14 +252,11 @@ footer{
  nav, ul{
   flex-direction: column;
  }
- .banner{
+ .banner, .text{
   flex-direction: column-reverse;
  }
- .text{
-  flex-direction: column-reverse;
- }
- .text-discription, footer, .img >img, .crad, .banner-image >img, .banner-containar{
-  width: 100%;
+  footer, .crad, .banner-image >img, .banner-containar{
+  width: 50%;
  }
  .crad, .tex{
   width: 50%;
@@ -270,12 +268,29 @@ footer{
   padding: 10px;
   text-align: center;
  }
- .crad, .banner-image >img, .banner-containar, nav, ul{
+ .crad, .banner-image >img, .banner-containar, nav, ul, .text-discription{
   justify-content: center;
   text-align: center;
  }
+.text-discription{
+  width: 90%;
+}
  .banner-title, .banner-description{
   text-align: center;
+ }
+ .commpani{
+  grid-template-columns: repeat(4, 1fr);
+  width: 50%;
+  gap: 0px;
+  padding: 0px;
+ }
+ .commpani-containt >img, footer, .img >img{
+  width: 100%;
+ }
+ .commpani-containt{
+  width: 50px;
+  height: 50px;
+  gap: 2px;
  }
 }
 
