@@ -37,9 +37,6 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
   }
-.contain >img{
-  width: 100%;
-}
   .containt{
     width: 300px;
     height: 440px;
@@ -143,6 +140,7 @@ footer{
 .icon{
   color: white;
 }
+
   
 
 
@@ -170,16 +168,16 @@ footer{
 
 
 @media screen and (max-width:576px) {
-  .containar{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .text {
-    flex-direction: column-reverse;
-  }
-  .text-discription{
-    width: 100%;
-  }
-  .containar,.text, footer{
-    justify-items: center;
-  }
+ .containar{
+  grid-template-columns: repeat(1, 1fr);
+ }
+ .text{
+  flex-direction: column-reverse;
+ }
+ .text-discription, footer, .img >img, .crad{
+  width: 100%;
+ }
+ .crad{
+  justify-content: center;
+ }
 }
