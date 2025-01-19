@@ -181,3 +181,18 @@ footer{
   justify-content: center;
  }
 }
+
+@media screen and (min-width:576px) and (max-width:992px) {
+  .containar{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .text-discription, footer, .img >img, .crad{
+    width: 100%;
+   }
+  .text{
+    flex-direction: column-reverse;
+  }
+  .crad{
+    justify-content: center;
+   }
+}
