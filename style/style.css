@@ -81,7 +81,17 @@
     padding: 10px 24px;
     border: none;
   }
-
+/* commpani style */
+/* .commpani{
+  max-width: 1110px;
+  margin: 100px auto;
+  justify-content: space-evenly;
+  padding: 35px 60px;
+  border: 1px solid rgba(192, 204, 218, 0.1);
+  box-shadow: 0 0 10px rgba(192, 204, 218, 0.1);
+  align-items: center;
+  display: flex;
+} */
 
   .crad{
     max-width: 1047px;
