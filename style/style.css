@@ -67,6 +67,9 @@
     margin-top: 5px;
     margin-bottom: 0px;
   }
+  #star{
+    color: orange;
+  }
   .crad-description, .crad-sub-title{
     font-weight: bold;
     font-size: 0.87rem;
@@ -141,3 +144,42 @@ footer{
   color: white;
 }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+  .containar{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .text {
+    flex-direction: column-reverse;
+  }
+  .text-discription{
+    width: 100%;
+  }
+  .containar,.text, footer{
+    justify-items: center;
+  }
+}
