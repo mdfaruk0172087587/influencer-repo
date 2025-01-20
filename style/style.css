@@ -60,11 +60,13 @@
     
   }
   .banner-image {
-    width: 440px;
-    height: 414px;
+    width: 100%;
+    /* height: 414px; */
+    border: 4px solid tomato;
     background-image: url(../images/Circle\ design.svg);
-    background-repeat: no-repeat;
-    background-position: bottom right;
+  /* background-position: center; */
+  background-size: contain;
+  background-repeat: no-repeat;
   }
   .banner-title{
     font-weight: bold;
@@ -255,8 +257,14 @@ footer{
  .banner, .text{
   flex-direction: column-reverse;
  }
-  footer, .crad, .banner-image >img, .banner-containar{
+  footer, .crad, {
   width: 50%;
+ }
+ .banner-image >img{
+  width: 100%;
+ }
+ .banner-image{
+  margin-left: 0px;
  }
  .crad, .tex{
   width: 50%;
@@ -268,7 +276,7 @@ footer{
   padding: 10px;
   text-align: center;
  }
- .crad, .banner-image >img, .banner-containar, nav, ul, .text-discription{
+ .crad, .banner-image >img, .banner-containar nav, ul, .text-discription{
   justify-content: center;
   text-align: center;
  }
@@ -292,6 +300,7 @@ footer{
   height: 50px;
   gap: 2px;
  }
+
 }
 
 
